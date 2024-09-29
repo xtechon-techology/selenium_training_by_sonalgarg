@@ -2,9 +2,6 @@
 
 This repository is designed for learning and practicing Selenium automation. The project contains various test cases simulating user interactions with an e-commerce website (e.g., Amazon) using Selenium WebDriver.
 
-## Project Structure
-selenium_training_by_sonalgarg │ ├── src │ ├── main │ │ └── java │ │ └── com │ │ └── ama │ │ └── qa │ │ ├── base │ │ │ └── TestBase.java │ │ ├── config │ │ │ └── config.properties │ │ ├── pages │ │ │ ├── AmazonHomePage.java │ │ │ ├── AmazonLoginPage.java │ │ │ ├── AmazonProductCheckoutPage.java │ │ │ ├── AmazonProductDetailsPage.java │ │ │ ├── AmazonSearchProductsPage.java │ │ │ └── ShoppingCartPage.java │ │ └── util │ └── testcases │ ├── DemoSuite ├── NullClassSeleniumProject └── Module5_XTechOn.java
-
 
 ## Key Components
 
@@ -36,3 +33,33 @@ selenium_training_by_sonalgarg │ ├── src │ ├── main │ │ └�
 
 ```bash
 git clone https://github.com/xtechon-technology/selenium_training_by_sonalgarg.git
+```
+
+### 2. Prerequisites:
+
+- Ensure you have **Java** installed on your system.
+- Install **Maven** to manage dependencies.
+- Download the necessary **browser drivers** (ChromeDriver, GeckoDriver, etc.).
+
+### 3. Setup and Configuration:
+
+- Update the `config.properties` file with the desired browser and environment configuration.
+
+### 4. Running Tests:
+
+You can run the test cases through your IDE or using Maven from the command line.
+
+```bash
+mvn test
+```
+
+## Technologies Used
+
+- **Selenium WebDriver**: For browser automation.
+- **Java**: Programming language for writing test scripts.
+- **Maven**: For dependency management and build automation.
+- **TestNG**: Test framework for writing and executing test cases.
+
+## Contributors
+
+- **Sonal Garg**: Selenium course creator and repository owner.
